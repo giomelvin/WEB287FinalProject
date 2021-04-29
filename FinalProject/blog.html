@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Giovanni Melvin - Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="mobile-container">
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">About</a>
+            <a href="works.html">Works</a>
+            <a href="resume.html">Resume</a>
+            <a class="active" href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">Menu</i>
+            </a>
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+
+        <div class="blog-container">
+
+            <div class="blog-item">
+                <img class="blog-photo" src="images/blogphoto.PNG" alt="A image of my header that is on my blog.">
+            </div>
+
+            <div class="blog-itemt">
+                <h2><a href="https://giovannisblog740641517.wordpress.com/" target="_blank">Link to my Blog</a></h2>
+                <p>This is a link to my personal blog. It is hosted on WordPress. I usually share articles pertaining to different aspects of Web Design.</p>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
